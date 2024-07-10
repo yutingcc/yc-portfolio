@@ -3,13 +3,9 @@
 import { createTheme } from "@mui/material";
 
 const ProjectTheme = createTheme({
-    // typography:{
-    //     fontFamily: 
-    //         'Averia Serif Libre'
-    // },
-    // palette: {
-    //     //
-    // },
+    typography: {
+        fontFamily: "Roboto",
+      },
     palette: {
         background: {
             default: "#ffffff",  // 设置全局背景颜色为白色

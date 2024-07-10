@@ -31,7 +31,7 @@ export default function Projects() {
               image={wellingtonhotel}
               title="Wellington Hotel Website"
               description="This visual project for Bats Theatre's 30th anniversary season, inspired by Warren Maxwell's music, includes a street poster, mobile website, and trailer video. Our goal is to engage all ages through print and digital media, channeling audiences to the website and, ultimately, the theatre."
-              url="./wellingtonhotel"
+              url="./wellington-hotel"
             />
           </Grid>
 

@@ -1,35 +1,34 @@
+"use client";
+
 import { Box, Container, ThemeProvider, Typography } from "@mui/material";
 import NavBar from "@/components/navBar";
 import "../assets/styles/main.scss";
+import wellingtonhotel from "../assets/images/wellingtonhotel.jpg";
 import { ProjectTheme } from "@/app/projectTheme";
 
 export default function WellingtonHotel() {
   return (
     <main>
       <ThemeProvider theme={ProjectTheme}>
+        <NavBar />
         <div className="top-section">
           <Container>
-            <Typography variant="h4">Portfolio</Typography>
-            <Typography variant="h2" fontWeight={600}>
-              Yuting Cao,
+            <Typography variant="h4">Ui/UX Design</Typography>
+            <Typography variant="h3" fontWeight={600}>
+              Wellington Hotel Website,
             </Typography>
           </Container>
         </div>
         <div className="bottom-section">
           <Container>
             <Typography variant="h6" className="intro" sx={{ width: "auto" }}>
-              I'm a visual communication designer. In essence, my personal brand
-              is defined by a relentless pursuit of excellence, a talent for
-              inspiring action, a problem-solving mindset, and an unwavering
-              commitment to individualized approaches. I am an enthusiastic
-              learner and an innovative visual communicator, dedicated to making
-              a lasting impact through my designs and empowering others through
-              knowledge and creativity.
+              Wellington Hotel is an affordable hotel located on Manner Street.
+              The overall style of the website is designed to convey the hotel's
+              desire for guests to explore the fun places in Wellington rather
+              than staying in the hotel.
             </Typography>
           </Container>
         </div>
-
-        {/* <Projects /> */}
       </ThemeProvider>
     </main>
   );

@@ -3,13 +3,7 @@
 import Projects from "@/components/projects";
 import Portfolio from "@/components/portfolio";
 import { ThemeProvider } from "@mui/material";
-import { createTheme } from "@mui/material";
-
-const ProjectTheme = createTheme({
-  typography: {
-    fontFamily: "Roboto",
-  },
-});
+import { ProjectTheme } from "./projectTheme";
 
 export default function Home() {
   return (
