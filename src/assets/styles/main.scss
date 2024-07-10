@@ -1,0 +1,75 @@
+
+h6 {
+  font-size: 18px !important;; 
+  font-weight: 100 !important;; 
+  line-height: 25px !important;; /* 设置行高 */
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 50vh;
+    background-color:rgb(255, 255, 255);
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom,#e4e4e4, white);
+    height: 50vh;
+    position: relative;
+}
+
+.intro{
+    // width: 100%; 
+    padding-top: 10px;
+}
+
+@media (min-width: 700px) {
+  .intro {
+    padding-left: 50%;
+  }
+  .scroll{
+    position: absolute; 
+    left:50%; 
+  }
+}
+
+.scroll {
+    position: absolute;
+    bottom: 2rem;
+  }
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky; 
+    top: 0;
+    background-color: rgb(255, 255, 255); 
+    z-index: 1000; 
+
+    a {
+        padding-top: 30px;
+        margin-right: 2rem;
+        color: black;
+        text-decoration: none;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+
+        &:hover {
+          text-decoration: underline; /* 鼠标悬浮时显示下划线 */
+          text-decoration-color: black; /* 设置下划线颜色 */}
+          text-underline-offset: 3px; /* 设置下划线与文字的距离 */
+          text-decoration-thickness: 3px; /* 设置下划线的粗细 */
+    }
+}
+
+.sort {
+  padding-bottom: 30px;
+}
+
+#projects {
+  background-color: #ffffff; /* 设置背景颜色为白色 */
+  padding: 2rem; /* 添加一些内边距，使内容看起来更好 */
+}
