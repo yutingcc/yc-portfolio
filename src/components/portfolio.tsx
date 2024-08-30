@@ -27,6 +27,10 @@ export default function Portfolio() {
               a lasting impact through my designs and empowering others through
               knowledge and creativity.
             </Typography>
+
+            <Typography variant="h6" className="scroll">
+             ↓ scroll
+             </Typography>
           </Container>
         </div>
 

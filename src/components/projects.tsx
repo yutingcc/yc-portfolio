@@ -28,6 +28,15 @@ export default function Projects() {
         <Grid container spacing={4}>
           <Grid item xs={4}>
             <ProjectCard
+              image={news}
+              title="Kiwi insight News Website"
+              description=' "Kiwi Insight" is a comprehensive news website providing dedicated coverage of news related to New Zealand. The target users of Kiwi Insight are 16-50 year-old people live in New Zealand who want to stay informed of what is happening in New Zealand, some of them may want to read the news according to different regions of NZ.'
+              url="./news-web"
+            />
+          </Grid>
+
+          <Grid item xs={4}>
+            <ProjectCard
               image={wellingtonhotel}
               title="Wellington Hotel Website"
               description="This visual project for Bats Theatre's 30th anniversary season, inspired by Warren Maxwell's music, includes a street poster, mobile website, and trailer video. Our goal is to engage all ages through print and digital media, channeling audiences to the website and, ultimately, the theatre."
@@ -37,19 +46,10 @@ export default function Projects() {
 
           <Grid item xs={4}>
             <ProjectCard
-              image={news}
-              title="Kiwi insight News Website"
-              description=' "Kiwi Insight" is a comprehensive news website providing dedicated coverage of news related to New Zealand. The target users of Kiwi Insight are 16-50 year-old people live in New Zealand who want to stay informed of what is happening in New Zealand, some of them may want to read the news according to different regions of NZ.'
-              url="news"
-            />
-          </Grid>
-
-          <Grid item xs={4}>
-            <ProjectCard
               image={dunhuangweb}
               title="Cultural Experience Applet"
               description=' "Kiwi Insight" is a comprehensive news website providing dedicated coverage of news related to New Zealand. The target users of Kiwi Insight are 16-50 year-old people live in New Zealand who want to stay informed of what is happening in New Zealand, some of them may want to read the news according to different regions of NZ.'
-              url="news"
+              url="./dunhuang-web"
             />
           </Grid>
         </Grid>
@@ -62,9 +62,9 @@ export default function Projects() {
           <Grid item xs={4}>
             <ProjectCard
               image={Penguin}
-              title="A REDESIGN OF THE EAST BY WEST FERRY SERVICE"
-              description="This project is about designing a new service for the Jones family to improve the experience of travelling in the Matiu/Somes Island in New Zealand."
-              url="penguin"
+              title="A Redesign Of The East By West Ferry Service"
+              description="This project is about designing a new service for New Zealand locals family to improve the experience of travelling in the Matiu/Somes Island in Wellington."
+              url="./penguin-web"
             />
           </Grid>
 
@@ -72,7 +72,7 @@ export default function Projects() {
             <ProjectCard
               image={carnnect}
               title="A REDESIGN OF THE EAST BY WEST FERRY SERVICE"
-              description="This project is about designing a new service for the Jones family to improve the experience of travelling in the Matiu/Somes Island in New Zealand."
+              description="This project is about designing a new service for New Zealand local family to improve the experience of travelling in the Matiu/Somes Island in Wellington."
               url="penguin"
             />
           </Grid>
