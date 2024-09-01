@@ -37,13 +37,13 @@ export default function Screen() {
         <div className="bottom-section">
           <Container>
             <Typography variant="h6" className="intro" sx={{ width: "auto" }}>
-            This project showcases The Water Sprinkling Festival's activities, aiming to capture the vibrant festival 
-            ambiance and provide a glimpse into China's Dai culture.
-            The composition captures the festival's essence with Kongming lanterns in the sky, Yunnan's map marking the location, and ground elements 
-            like an elephant, stilted house, and mountain representing the region. A peacock and a Dai girl, inspired by Shaoguang Ding's ethnic painting, 
+            This project showcases The Water Sprinkling Festival&apos;s activities, aiming to capture the vibrant festival 
+            ambiance and provide a glimpse into China&apos;s Dai culture.
+            The composition captures the festival&apos;s essence with Kongming lanterns in the sky, Yunnan&apos;s map marking the location, and ground elements 
+            like an elephant, stilted house, and mountain representing the region. A peacock and a Dai girl, inspired by Shaoguang Ding&apos;s ethnic painting, 
                 depict water splashing, using asymmetry, scale, and proportion for balance. The animation enhances this vibrancy, starting with descending 
                 lanterns and lively, bouncing elements. Water splashes, informed by video research and particle systems, form a river symbolizing Yunnan. Realistic 
-                ripples are created with AE's fractal noise, reflecting the region's hues.
+                ripples are created with AE&apos;s fractal noise, reflecting the region&apos;s hues.
             </Typography>
 
             <Typography variant="h6" id="Animation" className="intro" sx={{ width: "auto" }}>

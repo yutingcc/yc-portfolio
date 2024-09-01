@@ -81,7 +81,7 @@ export default function zealandia() {
               eco-sanctuary close to Wellington city. Step into the enchanting
               world of Zealandia and let its ever-changing scenes captivate your
               senses. From the vibrant burst of life in spring to the serene
-              beauty of winter's embrace, each season offers a new adventure
+              beauty of winter&apos;s embrace, each season offers a new adventure
               waiting to be discovered. With diverse habitats and rare native
               wildlife, Zealandia beckons you to explore its wonders year-round.
             </Typography>

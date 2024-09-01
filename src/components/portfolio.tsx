@@ -19,7 +19,7 @@ export default function Portfolio() {
         <div className="bottom-section">
           <Container>
             <Typography variant="h6" className="intro">
-              I'm a visual communication designer. In essence, my personal brand
+              I&apos;m a visual communication designer. In essence, my personal brand
               is defined by a relentless pursuit of excellence, a talent for
               inspiring action, a problem-solving mindset, and an unwavering
               commitment to individualized approaches. I am an enthusiastic

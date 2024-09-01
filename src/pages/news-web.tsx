@@ -37,7 +37,7 @@ export default function newsWeb() {
         <div className="bottom-section">
           <Container>
             <Typography variant="h6" className="intro" sx={{ width: "auto" }}>
-              "Kiwi Insight" is a comprehensive news website dedicated to
+            &quot;Kiwi Insight&quot; is a comprehensive news website dedicated to
               providing extensive coverage of news related to New Zealand. In
               summary, my primary objective is to create a user-friendly
               platform where the target audience can effortlessly discover and

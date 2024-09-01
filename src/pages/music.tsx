@@ -57,7 +57,7 @@ export default function music() {
         <div className="bottom-section">
           <Container>
             <Typography variant="h6" className="intro" sx={{ width: "auto" }}>
-            This visual project for Bats Theatre's 30th anniversary season, inspired by Warren Maxwell's music, includes a 
+            This visual project for Bats Theatre&apos;s 30th anniversary season, inspired by Warren Maxwell&apos;s music, includes a 
             street poster, mobile website, and trailer video. Our goal is to engage all ages through print and digital media, channeling audiences to 
             the website and, ultimately, the theatre.
             </Typography>
@@ -183,7 +183,7 @@ export default function music() {
 
               <Grid item xs={8}>
               <Typography variant="h6" >
-              Regarding the website, our focus is on enhancing its interactive functionality to ensure a comfortable user experience. We've anticipated
+              Regarding the website, our focus is on enhancing its interactive functionality to ensure a comfortable user experience. We&apos;ve anticipated
                diverse user intentions and streamlined shopping cart accessibility. For those primarily interested in play content, adding it to their
                 cart post-introduction is seamless. The site intuitively collapses unselected options to enhance clarity. Conversely, a dedicated ticketing 
                 system caters to schedule-conscious individuals, utilizing a real-time calendar and filtered navigation. The website aims to serve as a practical 
