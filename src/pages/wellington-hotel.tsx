@@ -13,9 +13,9 @@ import "../assets/styles/main.scss";
 import wellingtonhotel from "../assets/images/wellingtonhotel.jpg";
 import wellingtonhotel2 from "../assets/images/wellington-hotel/wellingtonhotel2.jpg";
 import wellingtonhotel3 from "../assets/images/wellington-hotel/wellingtonhotel3.png";
-import phone1 from "../assets/images/wellington-hotel/phone1.png";
-import phone2 from "../assets/images/wellington-hotel/phone2.png";
-import phone3 from "../assets/images/wellington-hotel/phone3.png";
+// import phone1 from "../assets/images/wellington-hotel/phone1.png";
+// import phone2 from "../assets/images/wellington-hotel/phone2.png";
+// import phone3 from "../assets/images/wellington-hotel/phone3.png";
 import room1 from "../assets/images/wellington-hotel/room1.jpg";
 import room2 from "../assets/images/wellington-hotel/room2.jpg";
 import room3 from "../assets/images/wellington-hotel/room3.jpg";
@@ -77,17 +77,19 @@ export default function WellingtonHotel() {
               </Grid>
 
               <Grid item xs={8}>
-                <Typography variant="h4" id="Walkthrough" >Responsive Website Design</Typography>
+                <Typography variant="h4" id="Walkthrough">
+                  Responsive Website Design
+                </Typography>
               </Grid>
 
               <Grid item xs={12}>
-              <iframe
-               src="https://player.vimeo.com/video/982477572?badge=0&autopause=0&player_id=0&app_id=58479&loop=1&autoplay=1"
-               frameBorder="0"
-               allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-               width="100%"
-               height="700"
-               title="wellington hotel workthrough"
+                <iframe
+                  src="https://player.vimeo.com/video/982477572?badge=0&autopause=0&player_id=0&app_id=58479&loop=1&autoplay=1"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                  width="100%"
+                  height="700"
+                  title="wellington hotel workthrough"
                 ></iframe>
               </Grid>
 
@@ -107,7 +109,7 @@ export default function WellingtonHotel() {
                 />
               </Grid>
 
-              <Grid item xs={4}>
+              {/* <Grid item xs={4}>
                 <img src={phone1.src} style={{ width: "100%" }} />
               </Grid>
 
@@ -117,8 +119,8 @@ export default function WellingtonHotel() {
 
               <Grid item xs={4}>
                 <img src={phone3.src} style={{ width: "100%" }} />
-              </Grid>
-{/* 
+              </Grid> */}
+              {/* 
               <Grid item xs={12}>
                 <Typography variant="h4">User Experience Design</Typography>
               </Grid>
