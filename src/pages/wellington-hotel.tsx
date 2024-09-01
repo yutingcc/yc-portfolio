@@ -13,9 +13,9 @@ import "../assets/styles/main.scss";
 import wellingtonhotel from "../assets/images/wellingtonhotel.jpg";
 import wellingtonhotel2 from "../assets/images/wellington-hotel/wellingtonhotel2.jpg";
 import wellingtonhotel3 from "../assets/images/wellington-hotel/wellingtonhotel3.png";
-// import phone1 from "../assets/images/wellington-hotel/phone1.png";
-// import phone2 from "../assets/images/wellington-hotel/phone2.png";
-// import phone3 from "../assets/images/wellington-hotel/phone3.png";
+import phone1 from "../assets/images/wellington-hotel/phone1.jpg";
+import phone2 from "../assets/images/wellington-hotel/phone2.jpg";
+import phone3 from "../assets/images/wellington-hotel/phone3.jpg";
 import room1 from "../assets/images/wellington-hotel/room1.jpg";
 import room2 from "../assets/images/wellington-hotel/room2.jpg";
 import room3 from "../assets/images/wellington-hotel/room3.jpg";
@@ -109,7 +109,7 @@ export default function WellingtonHotel() {
                 />
               </Grid>
 
-              {/* <Grid item xs={4}>
+              <Grid item xs={4}>
                 <img src={phone1.src} style={{ width: "100%" }} />
               </Grid>
 
@@ -119,23 +119,7 @@ export default function WellingtonHotel() {
 
               <Grid item xs={4}>
                 <img src={phone3.src} style={{ width: "100%" }} />
-              </Grid> */}
-              {/* 
-              <Grid item xs={12}>
-                <Typography variant="h4">User Experience Design</Typography>
-              </Grid>
-
-              <Grid item xs={12}>
-                <img src={room1.src} style={{ width: "100%" }} />
-              </Grid>
-
-              <Grid item xs={6}>
-                <img src={room2.src} style={{ width: "100%" }} />
-              </Grid>
-
-              <Grid item xs={6}>
-                <img src={room3.src} style={{ width: "100%" }} /> */}
-              {/* </Grid> */}
+              </Grid> 
             </Grid>
           </Container>
         </div>
