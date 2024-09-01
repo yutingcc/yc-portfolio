@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import NavBar from "@/components/navBar";
 import "../assets/styles/main.scss";
-import pipa from "../assets/images/dunhuang-web/pipa.jpg";
+import pipa from "../assets/images/dunhuang-web/Pipa.jpg";
 import dynasty from "../assets/images/dunhuang-web/dynasty.jpg";
 import instrument1 from "../assets/images/dunhuang-web/3d1.jpg";
 import instrument2 from "../assets/images/dunhuang-web/3d2.jpg";

@@ -38,12 +38,14 @@ import app13 from "../assets/images/music/app13.png";
 
 
 import { ProjectTheme } from "@/app/projectTheme";
-
+import SectionNavigator from "@/components/sectionNavigator";
 export default function music() {
+  const examples = ["Process", "Trailor", "Poster", "Website"];
   return (
     <main>
       <ThemeProvider theme={ProjectTheme}>
         <NavBar />
+        <SectionNavigator sections={examples} />
         <div className="top-section">
           <Container>
             <Typography variant="h4">Group project</Typography>
@@ -74,14 +76,15 @@ export default function music() {
             <Grid container spacing={4}>
 
             <Grid item xs={12}>
-                <Typography variant="h4" sx={{ paddingTop: "5rem" }}>Process</Typography>
+                <Typography variant="h4" id="Process" sx={{ paddingTop: "5rem" }}>Process</Typography>
               </Grid>
 
               <Grid item xs={4}>
                 <img
+                
                   src={storyboard.src}
                   alt="storyboard"
-                  style={{ width: "100%", marginTop: "5rem" }}
+                  style={{ width: "100%" }}
                 />
               </Grid>
 
@@ -125,7 +128,7 @@ export default function music() {
               </Grid>
 
               <Grid item xs={12}>
-                <Typography variant="h4" sx={{ paddingTop: "5rem" }}>Trailor Video</Typography>
+                <Typography variant="h4" id="Trailor"  sx={{ paddingTop: "5rem" }}>Trailor Video</Typography>
               </Grid>
              
               <Grid item xs={12}>
@@ -139,7 +142,7 @@ export default function music() {
               </Grid>
           
               <Grid item xs={12}>
-                <Typography variant="h4" sx={{ paddingTop: "3rem" }}>Poster</Typography>
+                <Typography variant="h4" id="Poster" sx={{ paddingTop: "3rem" }}>Poster</Typography>
               </Grid>
 
               <Grid item xs={6}>
@@ -175,7 +178,7 @@ export default function music() {
               </Grid>
 
               <Grid item xs={12}>
-                <Typography variant="h4" sx={{ paddingTop: "3rem" }}>Mobile Website</Typography>
+                <Typography variant="h4" id="Website" sx={{ paddingTop: "3rem" }}>Mobile Website</Typography>
               </Grid>
 
               <Grid item xs={8}>

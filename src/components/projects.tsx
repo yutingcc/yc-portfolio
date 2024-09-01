@@ -127,27 +127,27 @@ export default function Projects() {
           <Grid item xs={4}>
             <ProjectCard
               image={screen}
-              title="THE WATER SPRINKLING FESTIVAL"
+              title="The Water Sprinkling Festival"
               description="This project showcases The Water Sprinkling Festival's activities, aiming to capture the vibrant festival ambiance and provide a glimpse into China's Dai culture."
-              url="screen"
+              url="./screen"
             />
           </Grid>
 
           <Grid item xs={4}>
             <ProjectCard
               image={brochure}
-              title="BROCHURE DESIGN"
+              title="Brochure Design"
               description="This brochure aims to introduce different kinds of boats in Wuzhen."
-              url="brochure"
+              url="./brochure"
             />
           </Grid>
 
           <Grid item xs={4} sx={{ paddingBottom: "6rem" }}>
             <ProjectCard
               image={spatial}
-              title="PEACEFUL IN THE FLUX"
+              title="Peaceful In The Flux"
               description="In 2006, a museum building, invaded by a sense of flux, appeared in an certain place of France where is close to the broder of Germany."
-              url="spatial"
+              url="./archi"
             />
           </Grid>
         </Grid>

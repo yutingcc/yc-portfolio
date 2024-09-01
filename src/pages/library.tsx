@@ -55,12 +55,14 @@ import library24 from "../assets/images/library/library24.jpg";
 import library25 from "../assets/images/library/library25.jpg";
 
 import { ProjectTheme } from "@/app/projectTheme";
-
+import SectionNavigator from "@/components/sectionNavigator";
 export default function library() {
+  const examples = ["Research", "Intro", "Design","Journey"];
   return (
     <main>
       <ThemeProvider theme={ProjectTheme}>
         <NavBar />
+        <SectionNavigator sections={examples} />
         <div className="top-section">
           <Container>
             <Typography variant="h4">Group project</Typography>
@@ -108,6 +110,7 @@ export default function library() {
 
               <Grid item xs={12}>
                 <img
+                id="Research"
                   src={library3.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
@@ -132,6 +135,7 @@ export default function library() {
 
               <Grid item xs={12}>
                 <img
+                id="Intro"
                   src={library6.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
@@ -156,6 +160,7 @@ export default function library() {
 
               <Grid item xs={12}>
                 <img
+                id="Design"
                   src={library9.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
@@ -236,6 +241,7 @@ export default function library() {
 
               <Grid item xs={12}>
                 <img
+                id="Journey"
                   src={library19.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}

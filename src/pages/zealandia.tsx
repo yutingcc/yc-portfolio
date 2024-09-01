@@ -57,12 +57,15 @@ import zealandia43 from "../assets/images/zealandia/zealandia proposal_page-0043
 import zealandia44 from "../assets/images/zealandia/zealandia proposal_page-0044.jpg";
 
 import { ProjectTheme } from "@/app/projectTheme";
+import SectionNavigator from "@/components/sectionNavigator";
 
 export default function zealandia() {
+  const examples = ["Logo", "Narrative", "System","Design"];
   return (
     <main>
       <ThemeProvider theme={ProjectTheme}>
         <NavBar />
+        <SectionNavigator sections={examples} />
         <div className="top-section">
           <Container>
             <Typography variant="h4">Group Project</Typography>
@@ -106,7 +109,7 @@ export default function zealandia() {
               </Grid>
 
               <Grid item xs={6}>
-                <Typography variant="h4">Motion Logo</Typography>
+                <Typography variant="h4" id="Logo">Motion Logo</Typography>
               </Grid>
 
               <Grid item xs={6}>
@@ -128,6 +131,7 @@ export default function zealandia() {
               </Grid>
               <Grid item xs={12}>
                 <img
+                id="Narrative"
                   src={zealandia3.src}
                   alt="zealandia3"
                   style={{ width: "100%", marginTop: "5rem" }}
@@ -177,6 +181,7 @@ export default function zealandia() {
               </Grid>
               <Grid item xs={12}>
                 <img
+                 id="System"
                   src={zealandia10.src}
                   alt="zealandia10"
                   style={{ width: "100%", marginTop: "5rem" }}
@@ -184,6 +189,7 @@ export default function zealandia() {
               </Grid>
               <Grid item xs={12}>
                 <img
+               
                   src={zealandia11.src}
                   alt="zealandia11"
                   style={{ width: "100%", marginTop: "5rem" }}
@@ -240,6 +246,7 @@ export default function zealandia() {
               </Grid>
               <Grid item xs={12}>
                 <img
+                id="Design"
                   src={zealandia19.src}
                   alt="zealandia19"
                   style={{ width: "100%", marginTop: "5rem" }}

@@ -18,12 +18,14 @@ import p1 from "../assets/images/news-web/p1.png";
 import p2 from "../assets/images/news-web/p2.png";
 import p3 from "../assets/images/news-web/p3.png";
 import { ProjectTheme } from "@/app/projectTheme";
-
+import SectionNavigator from "@/components/sectionNavigator";
 export default function newsWeb() {
+  const examples = ["Design", "prototype", "Walkthrough"];
   return (
     <main>
       <ThemeProvider theme={ProjectTheme}>
         <NavBar />
+        <SectionNavigator sections={examples} />
         <div className="top-section">
           <Container>
             <Typography variant="h4">Sole project</Typography>
@@ -58,6 +60,7 @@ export default function newsWeb() {
             <Grid container spacing={4}>
               <Grid item xs={6}>
                 <img
+                  id="Design"
                   src={d1.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
@@ -113,7 +116,7 @@ export default function newsWeb() {
               </Grid>
 
               <Grid item xs={8}>
-                <Typography variant="h4">Desktop Website Prototyoe</Typography>
+                <Typography id="prototype" variant="h4">Desktop Website Prototype</Typography>
               </Grid>
 
               <Grid item xs={12}>
@@ -138,6 +141,10 @@ export default function newsWeb() {
                   src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3aU3LtW5ILDzeXYllVOcPY%2Fnews-web%3Fpage-id%3D88%253A516%26node-id%3D88-577%26viewport%3D3403%252C1632%252C0.61%26t%3DjdAKzcNw3WYLayzw-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D452%253A8453"
                   allowFullScreen
                 ></iframe>
+              </Grid>
+
+              <Grid item xs={8}>
+                <Typography id="Walkthrough" variant="h4">Website Walkthrough</Typography>
               </Grid>
 
               <Grid item xs={6}>

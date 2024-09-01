@@ -38,12 +38,17 @@ import penguin25 from "../assets/images/penguin-web/25.jpg";
 import penguin26 from "../assets/images/penguin-web/26.jpg";
 import penguin27 from "../assets/images/penguin-web/27.jpg";
 import { ProjectTheme } from "@/app/projectTheme";
+import SectionNavigator from "@/components/sectionNavigator";
 
 export default function Penguin() {
+  const examples = ["Research", "Audience", "Design"];
+
   return (
     <main>
       <ThemeProvider theme={ProjectTheme}>
         <NavBar />
+        <SectionNavigator sections={examples} />
+
         <div className="top-section">
           <Container>
             <Typography variant="h4">Group project</Typography>
@@ -94,6 +99,7 @@ export default function Penguin() {
 
               <Grid item xs={12}>
                 <img
+                  id="Research"
                   src={penguin3.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
@@ -102,6 +108,7 @@ export default function Penguin() {
 
               <Grid item xs={6}>
                 <img
+                  id="Section2"
                   src={penguin4.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
@@ -110,6 +117,7 @@ export default function Penguin() {
 
               <Grid item xs={6}>
                 <img
+                  id="Section3"
                   src={penguin5.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
@@ -126,6 +134,7 @@ export default function Penguin() {
 
               <Grid item xs={12}>
                 <img
+                  id="Audience"
                   src={penguin7.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
@@ -158,6 +167,7 @@ export default function Penguin() {
 
               <Grid item xs={12}>
                 <img
+                id="Design"
                   src={penguin11.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}

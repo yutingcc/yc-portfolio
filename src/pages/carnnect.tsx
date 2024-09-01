@@ -29,12 +29,15 @@ import carnnect15 from "../assets/images/carnnect/carnnect 15.jpg";
 import carnnect16 from "../assets/images/carnnect/carnnect 16.jpg";
 import carnnect17 from "../assets/images/carnnect/carnnect 17.jpg";
 import { ProjectTheme } from "@/app/projectTheme";
+import SectionNavigator from "@/components/sectionNavigator";
 
 export default function carnnect() {
+  const examples = ["Context", "Audience", "Idea", "Journey", "Design"];
   return (
     <main>
       <ThemeProvider theme={ProjectTheme}>
         <NavBar />
+        <SectionNavigator sections={examples} />
         <div className="top-section">
           <Container>
             <Typography variant="h4">Sole project</Typography>
@@ -76,6 +79,7 @@ export default function carnnect() {
 
               <Grid item xs={12}>
                 <img
+                 id="Context"
                   src={carnnect2.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
@@ -84,6 +88,7 @@ export default function carnnect() {
 
               <Grid item xs={12}>
                 <img
+                   id="Audience"
                   src={carnnect3.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
@@ -92,6 +97,7 @@ export default function carnnect() {
 
               <Grid item xs={12}>
                 <img
+                 id="Idea"
                   src={carnnect4.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
@@ -108,6 +114,7 @@ export default function carnnect() {
 
               <Grid item xs={12}>
                 <img
+                id="Journey"
                   src={carnnect6.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
@@ -116,6 +123,7 @@ export default function carnnect() {
 
               <Grid item xs={12}>
                 <img
+                  id="Design"
                   src={carnnect7.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
@@ -124,6 +132,7 @@ export default function carnnect() {
 
               <Grid item xs={12}>
                 <img
+              
                   src={carnnect8.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}

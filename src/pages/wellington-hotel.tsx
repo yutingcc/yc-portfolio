@@ -20,12 +20,15 @@ import room1 from "../assets/images/wellington-hotel/room1.jpg";
 import room2 from "../assets/images/wellington-hotel/room2.jpg";
 import room3 from "../assets/images/wellington-hotel/room3.jpg";
 import { ProjectTheme } from "@/app/projectTheme";
+import SectionNavigator from "@/components/sectionNavigator";
 
 export default function WellingtonHotel() {
+  const examples = ["Walkthrough"];
   return (
     <main>
       <ThemeProvider theme={ProjectTheme}>
         <NavBar />
+        <SectionNavigator sections={examples} />
         <div className="top-section">
           <Container>
             <Typography variant="h4">Sole project</Typography>
@@ -74,7 +77,7 @@ export default function WellingtonHotel() {
               </Grid>
 
               <Grid item xs={8}>
-                <Typography variant="h4">Responsive Website Design</Typography>
+                <Typography variant="h4" id="Walkthrough" >Responsive Website Design</Typography>
               </Grid>
 
               <Grid item xs={12}>
