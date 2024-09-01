@@ -71,18 +71,18 @@ export default function Projects() {
           <Grid item xs={4}>
             <ProjectCard
               image={carnnect}
-              title="A REDESIGN OF THE EAST BY WEST FERRY SERVICE"
-              description="This project is about designing a new service for New Zealand local family to improve the experience of travelling in the Matiu/Somes Island in Wellington."
-              url="penguin"
+              title="Carnnect (Product Design)"
+              description="This product is about designing an app focused on a carpool system to motivate and facilitate people in New Zealand communities to engage in carpool commuting, thereby enhancing their sense of everyday well-being."
+              url="./carnnect"
             />
           </Grid>
 
           <Grid item xs={4}>
             <ProjectCard
               image={library}
-              title="A REDESIGN OF THE EAST BY WEST FERRY SERVICE"
-              description="This project is about designing a new service for the Jones family to improve the experience of travelling in the Matiu/Somes Island in New Zealand."
-              url="penguin"
+              title="A Redesign Of Wellington City Library Service"
+              description="This project is about service and experience design for wellington city library that aim to improve the experience for Wellington citizens to engage in the library."
+              url="./library"
             />
           </Grid>
         </Grid>
@@ -95,27 +95,27 @@ export default function Projects() {
           <Grid item xs={4}>
             <ProjectCard
               image={zealandia}
-              title="A REDESIGN OF THE EAST BY WEST FERRY SERVICE"
-              description="This project is about designing a new service for the Jones family to improve the experience of travelling in the Matiu/Somes Island in New Zealand."
-              url="penguin"
+              title="A Rebranding of Zealandia"
+              description="Discover the native actors at Zealandia, an eco-sanctuary close to Wellington city. Step into the enchanting world of Zealandia and let its ever-changing scenes captivate your senses."
+              url="./zealandia"
             />
           </Grid>
 
           <Grid item xs={4}>
             <ProjectCard
               image={Music}
-              title="A Turbulent World"
-              description="This visual project for Bats Theatre's 30th anniversary season, inspired by Warren Maxwell's music, includes a street poster, mobile website, and trailer video. Our goal is to engage all ages through print and digital media, channeling audiences to the website and, ultimately, the theatre."
-              url="music"
+              title="Music Season Branding"
+              description="This project for Bats Theatre's 30th anniversary season, inspired by Warren Maxwell's music, includes a street poster, mobile website, and trailer video. Our goal is to engage all ages through print and digital media, channeling audiences to the website and, ultimately, the theatre."
+              url="./music"
             />
           </Grid>
 
           <Grid item xs={4}>
             <ProjectCard
               image={brand}
-              title="BRAND COMMUNICATION"
+              title="Daisy Chain Biscuit"
               description="This project is about analysing the brand and redesigning the Ernest Adams biscuit range to better compete with Farmbake."
-              url="brand"
+              url="./cookie"
             />
           </Grid>
         </Grid>

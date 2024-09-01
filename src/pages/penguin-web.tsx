@@ -10,13 +10,6 @@ import {
 } from "@mui/material";
 import NavBar from "@/components/navBar";
 import "../assets/styles/main.scss";
-import d1 from "../assets/images/news-web/1.png";
-import d2 from "../assets/images/news-web/2.png";
-import d3 from "../assets/images/news-web/3.png";
-import d4 from "../assets/images/news-web/5.png";
-import p1 from "../assets/images/news-web/p1.png";
-import p2 from "../assets/images/news-web/p2.png";
-import p3 from "../assets/images/news-web/p3.png";
 import penguin from "../assets/images/penguin-web/penguin.jpg";
 import penguin2 from "../assets/images/penguin-web/2.jpg";
 import penguin3 from "../assets/images/penguin-web/3.jpg";
@@ -46,7 +39,7 @@ import penguin26 from "../assets/images/penguin-web/26.jpg";
 import penguin27 from "../assets/images/penguin-web/27.jpg";
 import { ProjectTheme } from "@/app/projectTheme";
 
-export default function newsWeb() {
+export default function Penguin() {
   return (
     <main>
       <ThemeProvider theme={ProjectTheme}>
