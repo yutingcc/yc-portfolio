@@ -19,13 +19,10 @@ export default function Portfolio() {
         <div className="bottom-section">
           <Container>
             <Typography variant="h6" className="intro">
-              I&apos;m a visual communication designer. In essence, my personal brand
-              is defined by a relentless pursuit of excellence, a talent for
-              inspiring action, a problem-solving mindset, and an unwavering
-              commitment to individualized approaches. I am an enthusiastic
-              learner and an innovative visual communicator, dedicated to making
-              a lasting impact through my designs and empowering others through
-              knowledge and creativity.
+              I&apos;m a visual communication designer. I am a versatile and creative professional with a strong background in both design and customer service.
+               My experience spans across multiple industries and countries, where I have developed a keen eye for detail and a passion 
+               for creating user-centric designs. With a commitment to excellent communication and teamwork, I thrive in roles that allow me to engage with diverse groups of 
+               people and contribute to meaningful projects. My dedication to continuous learning and community involvement further enriches my ability to deliver high-quality work and build strong relationships.
             </Typography>
 
             <Typography variant="h6" className="scroll">
