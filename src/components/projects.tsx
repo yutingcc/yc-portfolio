@@ -39,7 +39,10 @@ export default function Projects() {
             <ProjectCard
               image={wellingtonhotel}
               title="Wellington Hotel Website"
-              description="This visual project for Bats Theatre's 30th anniversary season, inspired by Warren Maxwell's music, includes a street poster, mobile website, and trailer video. Our goal is to engage all ages through print and digital media, channeling audiences to the website and, ultimately, the theatre."
+              description="Wellington Hotel is an affordable hotel located on Manner Street.
+              The overall style of the website is designed to convey the hotel&apos;s
+              desire for guests to explore the fun places in Wellington rather
+              than staying in the hotel."
               url="./wellington-hotel"
             />
           </Grid>
@@ -48,7 +51,9 @@ export default function Projects() {
             <ProjectCard
               image={dunhuangweb}
               title="Cultural Experience Applet"
-              description=' "Kiwi Insight" is a comprehensive news website providing dedicated coverage of news related to New Zealand. The target users of Kiwi Insight are 16-50 year-old people live in New Zealand who want to stay informed of what is happening in New Zealand, some of them may want to read the news according to different regions of NZ.'
+              description=' "The aim of this project is to allow audiences to learn about a World Heritage Site-Dunhuang Mogao Cave 
+            without needing to physically visit it, while also promoting cross-cultural understanding. To achieve this 
+            goal, we built an applet using web code to effectively interpret and clarify the data. '
               url="./dunhuang-web"
             />
           </Grid>
