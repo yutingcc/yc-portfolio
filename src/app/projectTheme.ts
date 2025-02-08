@@ -4,7 +4,7 @@ import { createTheme } from "@mui/material";
 
 const ProjectTheme = createTheme({
     typography: {
-        fontFamily: "Roboto",
+        fontFamily:  "Lexend",
       },
     palette: {
         background: {

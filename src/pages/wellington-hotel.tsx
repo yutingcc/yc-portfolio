@@ -13,6 +13,7 @@ import "../assets/styles/main.scss";
 import wellingtonhotel from "../assets/images/wellingtonhotel.jpg";
 import wellingtonhotel2 from "../assets/images/wellington-hotel/wellingtonhotel2.jpg";
 import wellingtonhotel3 from "../assets/images/wellington-hotel/wellingtonhotel3.png";
+import wellingtonhotel4 from "../assets/images/wellington-hotel/wellingtonhotel4.png";
 import phone1 from "../assets/images/wellington-hotel/phone1.jpg";
 import phone2 from "../assets/images/wellington-hotel/phone2.jpg";
 import phone3 from "../assets/images/wellington-hotel/phone3.jpg";
@@ -23,7 +24,7 @@ import { ProjectTheme } from "@/app/projectTheme";
 import SectionNavigator from "@/components/sectionNavigator";
 
 export default function WellingtonHotel() {
-  const examples = ["Walkthrough"];
+  const examples = ["Walkthrough", "Images"];
   return (
     <main>
       <ThemeProvider theme={ProjectTheme}>
@@ -41,9 +42,9 @@ export default function WellingtonHotel() {
           <Container>
             <Typography variant="h6" className="intro" sx={{ width: "auto" }}>
               Wellington Hotel is an affordable hotel located on Manner Street.
-              The overall style of the website is designed to convey the hotel&apos;s
-              desire for guests to explore the fun places in Wellington rather
-              than staying in the hotel.
+              The overall style of the website is designed to convey the
+              hotel&apos;s desire for guests to explore the fun places in
+              Wellington rather than staying in the hotel.
             </Typography>
 
             <Typography variant="h6" className="intro" sx={{ width: "auto" }}>
@@ -98,6 +99,7 @@ export default function WellingtonHotel() {
                   src={wellingtonhotel2.src}
                   alt="Wellington Hotel2"
                   style={{ width: "100%" }}
+                  id="Images"
                 />
               </Grid>
 
@@ -106,6 +108,11 @@ export default function WellingtonHotel() {
                   src={wellingtonhotel3.src}
                   alt="Wellington Hotel3"
                   style={{ width: "100%" }}
+                />
+                <img 
+                  src={wellingtonhotel4.src}
+                  alt="Wellington Hotel4"
+                  style={{ width: "100%", marginTop:"12px"}}
                 />
               </Grid>
 
@@ -119,7 +126,7 @@ export default function WellingtonHotel() {
 
               <Grid item xs={4}>
                 <img src={phone3.src} style={{ width: "100%" }} />
-              </Grid> 
+              </Grid>
             </Grid>
           </Container>
         </div>

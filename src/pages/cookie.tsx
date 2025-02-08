@@ -58,14 +58,15 @@ export default function carnnect() {
           <Container>
             <Typography variant="h4">Sole project</Typography>
             <Typography variant="h3" fontWeight={600}>
-              Carnnect (Product Design),
+              Daisy Chain Biscuit Branding,
             </Typography>
           </Container>
         </div>
         <div className="bottom-section">
           <Container>
             <Typography variant="h6" className="intro" sx={{ width: "auto" }}>
-            This project is about analysing the brand and redesigning the Ernest Adams biscuit range to better compete with Farmbake.
+              This project is about analysing the brand and redesigning the
+              Ernest Adams biscuit range to better compete with Farmbake.
             </Typography>
 
             <Typography variant="h6" className="intro" sx={{ width: "auto" }}>
@@ -91,107 +92,106 @@ export default function carnnect() {
               </Grid>
 
               <Grid item xs={12}>
-              <img
-              id="Research"
-                src={cookie2.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <img
-                src={cookie3.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <img
-                src={cookie4.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <img
-                src={cookie5.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <img
-                src={cookie6.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <img
-                src={cookie7.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <img
-              id="Idea"
-                src={cookie8.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <img
-                src={cookie9.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <img
-                src={cookie10.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <img
-              id="Design"
-                src={cookie11.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <img
-                src={cookie12.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <img
-                src={cookie13.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <img
-                src={cookie14.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <img
-                src={cookie15.src}
-                alt="Wellington Hotel2"
-                style={{ width: "100%", marginTop: "5rem" }}
-              />
-            </Grid>
-              
+                <img
+                  id="Research"
+                  src={cookie2.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <img
+                  src={cookie3.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <img
+                  src={cookie4.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <img
+                  src={cookie5.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <img
+                  src={cookie6.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <img
+                  src={cookie7.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <img
+                  id="Idea"
+                  src={cookie8.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <img
+                  src={cookie9.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <img
+                  src={cookie10.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <img
+                  id="Design"
+                  src={cookie11.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <img
+                  src={cookie12.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <img
+                  src={cookie13.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <img
+                  src={cookie14.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <img
+                  src={cookie15.src}
+                  alt="Wellington Hotel2"
+                  style={{ width: "100%", marginTop: "5rem" }}
+                />
+              </Grid>
             </Grid>
           </Container>
         </div>

@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
 body {
-  font-family: 'Roboto';
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  }
+
+p {
+  font-size: 17px !important;; 
+  line-height: 25px !important;; /* 设置行高 */
+  font-weight: 200 !important;
 }
 
 h6 {
-  font-size: 18px !important;; 
-  font-weight: 100 !important;; 
+  font-size: 17px !important;; 
   line-height: 25px !important;; /* 设置行高 */
 }
 
@@ -27,6 +37,7 @@ h6 {
 .intro{
     // width: 100%; 
     padding-top: 10px;
+    font-weight: 200 !important;
 }
 
 @media (min-width: 700px) {

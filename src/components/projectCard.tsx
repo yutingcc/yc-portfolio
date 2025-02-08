@@ -20,7 +20,7 @@ export default function ProjectCard(props: {
           image={props.image.src}
           alt="green iguana"
         />
-        <CardContent sx={{height:"200px"}}>
+        <CardContent sx={{height:"295px"}}>
           <Typography gutterBottom variant="h5" component="div">
             {props.title}
           </Typography>

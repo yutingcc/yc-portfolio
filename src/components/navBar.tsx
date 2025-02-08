@@ -16,9 +16,9 @@ export default function NarBar() {
       <Container className="nav-bar">
         <Link href={"/"}>Home</Link>
         <Link href={"/#projects"}>Design Projects</Link>
-        <Link href={"/video_projects"}>Video Projects</Link>
+        <Link href={"/video_projects"}>Animation & Video Projects</Link>
         <Link href={"/about"}>About</Link>
-        <Link href={"/article"}>Article</Link>
+        {/* <Link href={"/article"}>Article</Link> */}
       </Container>
     </Box>
   );
