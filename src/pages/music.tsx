@@ -48,7 +48,6 @@ export default function music() {
         <SectionNavigator sections={examples} />
         <div className="top-section">
           <Container>
-            <Typography variant="h4">Group project</Typography>
             <Typography variant="h3" fontWeight={600}>
               A Turbulent World,
             </Typography>

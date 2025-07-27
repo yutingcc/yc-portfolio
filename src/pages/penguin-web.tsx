@@ -51,7 +51,6 @@ export default function Penguin() {
 
         <div className="top-section">
           <Container>
-            <Typography variant="h4">Group project</Typography>
             <Typography variant="h3" fontWeight={600}>
               East By West Ferry Service design,
             </Typography>

@@ -35,7 +35,6 @@ export default function Brochure() {
 
         <div className="top-section">
           <Container>
-            <Typography variant="h4">Sole project</Typography>
             <Typography variant="h3" fontWeight={600}>
             WuZhen Brochure Design,
             </Typography>

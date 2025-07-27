@@ -16,7 +16,7 @@ import brand from "../assets/images/brand.jpg";
 import spatial from "../assets/images/spatial.jpg";
 import "../assets/styles/main.scss";
 import NavBar from "@/components/navBar";
-
+import aai1 from "../assets/images/aai/1.jpeg";
 export default function Projects() {
   return (
     <div>
@@ -37,13 +37,13 @@ export default function Projects() {
 
           <Grid item xs={4}>
             <ProjectCard
-              image={wellingtonhotel}
-              title="Wellington Hotel Website"
-              description="Wellington Hotel is an affordable hotel located on Manner Street.
-              The overall style of the website is designed to convey the hotel&apos;s
-              desire for guests to explore the fun places in Wellington rather
-              than staying in the hotel."
-              url="./wellington-hotel"
+              image={aai1}
+              title="Aurora Australis Website"
+              description="The Aurora Australis website was created to reflect the refined aesthetics and
+               luxurious sophistication of this high-end interior design company. The primary goal of the 
+               website is to showcase Aurora Australis’ premium design style while building trust and facilitating 
+               engagement with potential clients. "
+              url="./aai"
             />
           </Grid>
 

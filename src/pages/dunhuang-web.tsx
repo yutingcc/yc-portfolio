@@ -29,7 +29,6 @@ export default function newsWeb() {
         <NavBar />
         <div className="top-section">
           <Container>
-            <Typography variant="h4">Group project</Typography>
             <Typography variant="h3" fontWeight={600}>
               Dunhuang Cultural Applet,
             </Typography>

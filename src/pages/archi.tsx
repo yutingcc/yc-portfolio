@@ -30,7 +30,6 @@ export default function Screen() {
 
         <div className="top-section">
           <Container>
-            <Typography variant="h4">Sole project</Typography>
             <Typography variant="h3" fontWeight={600}>
             Peaceful In The Flux,
             </Typography>

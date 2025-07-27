@@ -68,7 +68,6 @@ export default function zealandia() {
         <SectionNavigator sections={examples} />
         <div className="top-section">
           <Container>
-            <Typography variant="h4">Group Project</Typography>
             <Typography variant="h3" fontWeight={600}>
               Zealandia Rebranding,
             </Typography>
